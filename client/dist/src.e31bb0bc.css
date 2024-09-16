@@ -1,0 +1,318 @@
+.navbar {
+    background-color: #1e1e1e;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar ul li {
+    margin-right: 20px;
+}
+
+.navbar ul li a {
+    color: #f0f0f0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar ul li a:hover {
+    color: #ffd700;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #444;
+    background-color: #333;
+    color: #fff;
+}
+
+.search-bar button {
+    margin-left: 10px;
+    padding: 6px 10px;
+    background-color: #444;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #555;
+}
+
+nav {
+    background-color: #1c1c1e; /* Dark background */
+    padding: 10px 20px;
+    border-bottom: 2px solid #444; /* Slight border to separate the navbar */
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+ul a {
+    color: #ffffff; /* White text color */
+    text-decoration: none; /* Remove underline */
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+ul a:hover {
+    background-color: #444; /* Darker background on hover */
+    color: #ffd700; /* Golden color on hover */
+}
+
+ul a.active {
+    background-color: #ffd700; /* Highlight active link with golden color */
+    color: #1c1c1e; /* Dark text color on active */
+}
+
+ul a:focus {
+    outline: none;
+    background-color: #555; /* Even darker background for focus */
+}
+
+.latest-blocks-page {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #1c1c1e;
+    color: #ffffff;
+}
+
+.latest-blocks-container {
+    padding: 20px;
+    flex-grow: 1;
+    overflow-y: auto; /* Scroll within the table if necessary */
+}
+
+.latest-blocks-container h3 {
+    color: #ffd700;
+    margin-bottom: 20px;
+}
+
+.latest-blocks-table-container {
+    overflow-y: auto;
+}
+
+.latest-blocks-table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed; /* Ensure columns have fixed widths */
+}
+
+.latest-blocks-table th, .latest-blocks-table td {
+    border: 1px solid #333;
+    padding: 10px;
+    text-align: left;
+}
+
+.latest-blocks-table th {
+    background-color: #2c2c2e;
+    color: #ffd700;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.latest-blocks-table td {
+    background-color: #3a3a3c;
+    color: #ffffff;
+}
+
+.latest-blocks-table tr:nth-child(even) {
+    background-color: #2c2c2e;
+}
+
+.latest-blocks-table tr:hover {
+    background-color: #444;
+}
+
+/* Prevent body from scrolling */
+/* body {
+    overflow: hidden;
+} */
+
+.transaction-pool-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #1c1c1e;
+    color: #ffffff;
+}
+
+.transaction-pool-container h3 {
+    color: #ffd700;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.transaction-pool-table-container {
+    flex-grow: 1; /* Allow this container to grow and take up available space */
+    overflow-y: auto; /* Scroll inside the table if necessary */
+}
+
+.transaction-pool-table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed; /* Ensure columns have fixed widths */
+}
+
+.transaction-pool-table th, .transaction-pool-table td {
+    border: 1px solid #333;
+    padding: 10px;
+    text-align: left;
+}
+
+.transaction-pool-table th {
+    background-color: #2c2c2e;
+    color: #ffd700;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.transaction-pool-table td {
+    background-color: #3a3a3c;
+    color: #ffffff;
+}
+
+.transaction-pool-table tr:nth-child(even) {
+    background-color: #2c2c2e;
+}
+
+.transaction-pool-table tr:hover {
+    background-color: #444;
+}
+
+/* Prevent body from scrolling */
+body {
+    overflow: hidden;
+}
+
+.set-difficulty {
+    background-color: #2c2c2c;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.set-difficulty h3 {
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.set-difficulty input {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #444;
+    background-color: #333;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.set-difficulty button {
+    padding: 6px 12px;
+    background-color: #444;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.set-difficulty button:hover {
+    background-color: #555;
+}
+
+.set-difficulty p {
+    margin-top: 10px;
+    color: #ffd700;
+}
+
+/* .homepage {
+    background-color: #1e1e1e;
+    color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+} */
+
+.content {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    flex-grow: 1;
+}
+
+.content > div {
+    margin-bottom: 20px;
+}
+
+body {
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 5%;
+    word-wrap: break-word;
+}
+
+.logo{
+    width: 250px;
+    height: 250px;
+
+}
+
+.App{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.WalletInfo{
+    width: 500px;
+}
+
+.Block{
+    border: 1px solid #fff;
+    padding: 5%;
+    margin: 2%;
+}
+
+.Transaction {
+    padding: 5%;
+}
+
+.ConductTransaction, .TransactionPool{
+    margin: 10%;
+}
+
+a, a:hover{
+    color: #e66;
+    text-decoration: underline;
+}
+
+/*# sourceMappingURL=/src.e31bb0bc.css.map */

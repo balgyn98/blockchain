@@ -1,0 +1,38 @@
+.set-difficulty {
+    background-color: #2c2c2c;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.set-difficulty h3 {
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.set-difficulty input {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #444;
+    background-color: #333;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.set-difficulty button {
+    padding: 6px 12px;
+    background-color: #444;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.set-difficulty button:hover {
+    background-color: #555;
+}
+
+.set-difficulty p {
+    margin-top: 10px;
+    color: #ffd700;
+}

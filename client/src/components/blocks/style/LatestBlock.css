@@ -1,0 +1,60 @@
+.latest-blocks-page {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #1c1c1e;
+    color: #ffffff;
+}
+
+.latest-blocks-container {
+    padding: 20px;
+    flex-grow: 1;
+    overflow-y: auto; /* Scroll within the table if necessary */
+}
+
+.latest-blocks-container h3 {
+    color: #ffd700;
+    margin-bottom: 20px;
+}
+
+.latest-blocks-table-container {
+    overflow-y: auto;
+}
+
+.latest-blocks-table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed; /* Ensure columns have fixed widths */
+}
+
+.latest-blocks-table th, .latest-blocks-table td {
+    border: 1px solid #333;
+    padding: 10px;
+    text-align: left;
+}
+
+.latest-blocks-table th {
+    background-color: #2c2c2e;
+    color: #ffd700;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.latest-blocks-table td {
+    background-color: #3a3a3c;
+    color: #ffffff;
+}
+
+.latest-blocks-table tr:nth-child(even) {
+    background-color: #2c2c2e;
+}
+
+.latest-blocks-table tr:hover {
+    background-color: #444;
+}
+
+/* Prevent body from scrolling */
+/* body {
+    overflow: hidden;
+} */

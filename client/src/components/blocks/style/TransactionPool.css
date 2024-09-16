@@ -1,0 +1,56 @@
+.transaction-pool-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #1c1c1e;
+    color: #ffffff;
+}
+
+.transaction-pool-container h3 {
+    color: #ffd700;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.transaction-pool-table-container {
+    flex-grow: 1; /* Allow this container to grow and take up available space */
+    overflow-y: auto; /* Scroll inside the table if necessary */
+}
+
+.transaction-pool-table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed; /* Ensure columns have fixed widths */
+}
+
+.transaction-pool-table th, .transaction-pool-table td {
+    border: 1px solid #333;
+    padding: 10px;
+    text-align: left;
+}
+
+.transaction-pool-table th {
+    background-color: #2c2c2e;
+    color: #ffd700;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.transaction-pool-table td {
+    background-color: #3a3a3c;
+    color: #ffffff;
+}
+
+.transaction-pool-table tr:nth-child(even) {
+    background-color: #2c2c2e;
+}
+
+.transaction-pool-table tr:hover {
+    background-color: #444;
+}
+
+/* Prevent body from scrolling */
+body {
+    overflow: hidden;
+}

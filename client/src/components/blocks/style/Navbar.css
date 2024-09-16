@@ -1,0 +1,94 @@
+.navbar {
+    background-color: #1e1e1e;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar ul li {
+    margin-right: 20px;
+}
+
+.navbar ul li a {
+    color: #f0f0f0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar ul li a:hover {
+    color: #ffd700;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #444;
+    background-color: #333;
+    color: #fff;
+}
+
+.search-bar button {
+    margin-left: 10px;
+    padding: 6px 10px;
+    background-color: #444;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #555;
+}
+
+nav {
+    background-color: #1c1c1e; /* Dark background */
+    padding: 10px 20px;
+    border-bottom: 2px solid #444; /* Slight border to separate the navbar */
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+ul a {
+    color: #ffffff; /* White text color */
+    text-decoration: none; /* Remove underline */
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+ul a:hover {
+    background-color: #444; /* Darker background on hover */
+    color: #ffd700; /* Golden color on hover */
+}
+
+ul a.active {
+    background-color: #ffd700; /* Highlight active link with golden color */
+    color: #1c1c1e; /* Dark text color on active */
+}
+
+ul a:focus {
+    outline: none;
+    background-color: #555; /* Even darker background for focus */
+}
